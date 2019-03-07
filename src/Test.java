@@ -27,7 +27,7 @@ public class Test {
                 }
             }
         };
-        new Thread(r1).start();
+        new Thread(r1).start();//aA
         new Thread(r2).start();
     }
 }
