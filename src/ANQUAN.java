@@ -10,5 +10,6 @@ public class ANQUAN {
         Map<String,Integer>map = new HashMap<>();
         Map<String,Integer>syncMap
                 =Collections.synchronizedMap(map);//多线程安全的
+
     }
 }
